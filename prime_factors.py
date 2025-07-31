@@ -1,2 +1,5 @@
 class PrimeFactor:
-    pass
+    @classmethod
+    def of(cls, param) -> []:
+        factor = []
+        return factor
