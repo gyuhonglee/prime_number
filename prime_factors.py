@@ -12,6 +12,7 @@ class PrimeFactor:
                 while number % divisor == 0:
                     factors.append(divisor)
                     number //= divisor
+                divisor +=1
                 while number % 3 == 0:
                     factors.append(3)
                     number //=3
