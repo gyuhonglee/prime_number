@@ -2,8 +2,6 @@ class PrimeFactor:
     @classmethod
     def of(cls, number) -> []:
         factors = []
-        if number == 2:
-            factors.append(number)
-        elif number == 3:
+        if number > 1:
             factors.append(number)
         return factors
